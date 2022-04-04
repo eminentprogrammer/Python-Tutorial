@@ -9,6 +9,6 @@ try:
     time.sleep(2)
     system("git push -u origin master")
     time.sleep(5)
-    print("successfully pushed")
+    print("Repo successfully Updated")
 except Exception as e:
     print(e)
