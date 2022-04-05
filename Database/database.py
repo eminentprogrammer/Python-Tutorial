@@ -28,6 +28,8 @@ cursor = conn.cursor()
 # # Create single data
 # cursor.execute("INSERT INTO customers VALUES ('John','Elder', 'john_elder@gmail.com')")
 
+cursor.execute("")
+
 conn.commit()
 # Close connection everytime
 conn.close()
