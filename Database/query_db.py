@@ -4,7 +4,7 @@ import sqlite3
 conn = sqlite3.connect("customer.db")
 
 c = conn.cursor()
-c.execute("SELECT * FROM customers")
+c.execute("SELECT rowid,  FROM customers")
 
 # c.fetchone()
 # c.fetchmany()
