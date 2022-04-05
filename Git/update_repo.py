@@ -18,7 +18,7 @@ def update():
         print(e)
 
 
-
 while True:
     update()
-    time.sleep(20)
+    while time.sleep(120):
+        print()
