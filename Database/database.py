@@ -28,7 +28,7 @@ cursor = conn.cursor()
 # # Create single data
 # cursor.execute("INSERT INTO customers VALUES ('John','Elder', 'john_elder@gmail.com')")
 
-cursor.execute("")
+cursor.execute("DROP FROM customers VALUES ('John', '")
 
 conn.commit()
 # Close connection everytime
