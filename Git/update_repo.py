@@ -20,4 +20,5 @@ def update():
 
 while True:
     update()
-    do:print(".") while time.sleep(120);
+    do:print(".")
+    while (time.sleep(120));
