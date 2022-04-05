@@ -5,7 +5,7 @@ conn = sqlite3.connect("customer.db")
 
 c = conn.cursor()
 c.execute("SELECT rowid, * FROM customers WHERE last_name = 'Elder'")
-c.execute("SELECT rowid, * FROM customers WHERE last_name = 'Elder'")
+c.execute("SELECT rowid, * FROM customers WHERE last_name LIKE '%El'")
 
 # c.fetchone()
 # c.fetchmany()
