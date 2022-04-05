@@ -28,7 +28,7 @@ cursor = conn.cursor()
 # # Create single data
 # cursor.execute("INSERT INTO customers VALUES ('John','Elder', 'john_elder@gmail.com')")
 
-# Delete 
+# Delete Data from the database
 cursor.execute("DELETE FROM customers WHERE first_name ='John'")
 
 conn.commit()
